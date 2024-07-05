@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BP form</title>
+    <link rel="stylesheet" href="{% static 'BP_generator/styles.css' %}" />
+</head>
+<body>
+    <h1>DROP</h1>
+    <h2>Business Plan</h2>
+    <div class="formulaire">
+        <div class="content">
+            <h3>Votre business plan en quelques  click</h3>
+            <p>Nous sommes là pour vous aider à vous projeter</p>
+        </div>
+
+        <form action="" method="post" novalidate>
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>

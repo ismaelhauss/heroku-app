@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+h1 {
+    color: #ff6600;
+    margin-bottom: 10px;
+    font-size: 5em;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    color: #ff6600;
+    margin-bottom: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e65c00;
+}

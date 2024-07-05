@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BP form</title>
+    <link rel="stylesheet" href="{% static 'BP_generator/styles_tab.css' %}" />
+</head>
+<body>
+    <h1>DROP</h1>
+    <h2>Business Plan</h2>
+    {% for  t in tab %}
+    {{ t|safe }}
+    {% endfor %}
+    <div class="chart-container">
+        {% for ch  in chart %}
+        {{ ch|safe }}
+        {% endfor %}
+    </div>
+    <input type="button" value="Retour" onclick="location.href='/contact-us/';">
+</body>
+</html>

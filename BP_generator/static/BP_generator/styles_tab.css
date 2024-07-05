@@ -1,0 +1,86 @@
+/* BP_generator/styles.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #ff6600;
+    margin-bottom: 10px;
+    font-size: 5em;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #e65c00;
+}
+
+.chart-container {
+    width: 80%;
+    margin: 5%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
